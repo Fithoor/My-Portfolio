@@ -1,0 +1,130 @@
+@media (max-width: 600px) {
+    .nav{
+        position: relative;
+        height: 70px;
+        
+    }
+    .menuBar{
+        display: inline-block;
+    }
+
+    .Class_for_Mobile{
+        display: none;
+        position: absolute;
+        width: 300px;
+        background-color: #FEA12A;
+        height: 100vh;
+        top: 40px;
+        right: -10px;
+        flex-direction: column;
+        padding: 100px 00px;
+    }
+    .Class_for_Mobile.show{
+        display: flex;
+    }
+    .Class_for_Mobile a{
+        /* margin: 2px 0px; */
+        padding: 20px 30px;
+        font-size: 20px;
+        font-weight: 600;
+        text-decoration: none;
+    }
+    
+    .Home{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .Home img{
+        height: auto;
+        padding: 0px 30px;
+        width: 100%;
+        margin-top: 0px;
+    }
+    .Home div{
+        width: 100%;
+        padding: 0px 30px;
+        margin-left: 0px;
+        margin-bottom: 30px;
+    }
+    h1{
+        font-size: 27px;
+    }
+    .Home p{
+        padding: 0px 10px;
+        word-spacing: 1.7px;
+    }
+    .Home-buttons{
+        display: flex;
+        flex-direction: column;
+    }
+    .Home-buttons a{
+        padding: 6px 45px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .Home-buttons a:hover{
+        background-color: white;
+        color: #F6891B;
+        border: 1px solid #F6891B;
+    }
+    .Home-buttons a:last-child{
+        margin-left: 0px;
+    }
+
+    .Skills, .Project{
+    padding: 0 0px;
+    min-height: 70vh; 
+
+    }
+    .Skills h1, .Project h1{
+        font-size: 30px;
+        margin: 0px 30px;
+    }
+    .languages{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: 0px 0px;
+    }
+    .language{
+        height: 160px;
+        width: 80%;
+    }
+    .Project-content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 20px 3px;
+    }
+    .chatbot{
+        margin: 20px 0px;
+    }
+    .Project .Project-content ul{
+        margin: 10px 40px 10px 60px;
+    }
+   
+    .form{
+        text-align: start;
+    }
+    .form h1{
+        margin: 20px 0px 10px -5px;
+        padding: 0;
+        font-size: 25px;
+    }
+    .form input{
+        width: 81vw;    
+    }
+    .form textarea{
+        min-height: 15vh;
+        width: 81vw;
+    }
+    button{
+        margin: 20px 0px;
+        padding: 5px 35px;
+        border: 1.5px solid #F6891B;
+        background-color: transparent;
+        color: #F6891B;
+        font-weight: 700;
+    }
+    
+}

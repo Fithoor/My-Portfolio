@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <nav>
+        <h3>Muhammad Bilal</h3>
+        <div class="Class_for_Mobile">
+            <a href="#Home">Home</a>
+            <a href="#Skills">Skills</a>
+            <a href="#Projects">Projects</a>
+            <a href="#Recomendations">Contact Me</a>
+        </div>
+        <img onclick="
+        displayMenu()" class="menuBar" src="Pictures_Icons/icons8-menu-24.png" alt="">
+    </nav>
+        <div class="pop-up">
+            <p>Thanks for leaving a recommendation!</p>
+            <button class="PopBtn" onclick="
+            display_none() ">Ok</button>
+        </div>
+<section class="Home" id="Home">
+    <div>
+        <h1><span>Hi</span>, <br> I'm Muhammad Bilal!!</h1>
+        <p>I am a frontend developer with a strong foundation in HTML, CSS, JavaScript, and C language. I have completed various projects using these technologies and am currently expanding my skill set by learning Java, SQL, and PHP. I am also pursuing my studies at the University of Engineering and Technology, Peshawar. My portfolio showcases applications and websites deployed on my GitHub page, reflecting my dedication to continuous learning and professional growth.</p>
+        <div class="Home-buttons">
+            <a href="https://coursera.org/share/5bdc572abc2a5fb6a01117cd523004d4">Certificate</a>
+            <a href="https://github.com/Fithoor">GitHub </a>
+
+        </div>
+    </div>
+    <img src="Pictures_Icons/Profile.jpg" alt="">
+</section>
+<section class="Skills" id="Skills">
+    <h1>Skills</h1>
+    <div class="languages">
+        <div class="language">
+            <img src="Pictures_Icons/icons8-html.svg" alt="">
+            <h2>HTML</h2>
+            <h3>Used in Projects and Learning</h3>
+        </div>
+        <div class="language">
+            <img src="Pictures_Icons/icons8-css.svg" alt="">
+            <h2>CSS</h2>
+            <h3>Used in Projects and Learning</h3>
+        </div>
+        <div class="language">
+            <img src="Pictures_Icons/icons8-javascript.svg" alt="">
+            <h2>JavaScript</h2>
+            <h3>Used in Projects and Learning</h3>
+        </div>
+        <div class="language">
+            <img src="Pictures_Icons/icons8-java.svg" alt="">
+            <h2>Java</h2>
+            <h3>In Progress</h3>
+        </div>
+        <div class="language">
+            <img src="Pictures_Icons/icons8-react-native.svg" alt="">
+            <h2>React</h2>
+            <h3>Basic understanding</h3>
+        </div>
+        <div class="language">
+            <img src="Pictures_Icons/icons8-C.png" alt="">
+            <h2>C</h2>
+            <h3>Intermediate with Projects</h3>
+        </div>
+    </div>
+</section>
+<section class="Project" id="Projects">
+    <h1>Projects</h1>
+    <div class="languages">
+        <div class="language">
+            <img src="Projects_stuff/Sneakers.png" alt="">
+            <h2>E-commrece</h2>
+            <a href="https://fithoor.github.io/E-commrece/">View Project</a>
+        </div>
+        <div class="language">
+            <img src="Projects_stuff/Hotel.png" alt="">
+            <h2>sunnyside</h2>
+            <a href=" https://fithoor.github.io/Hotel/">View Project</a>
+        </div>
+        <div class="language">
+            <img src="Projects_stuff/Calculator.png" alt="">
+            <h2>Simple Calculator</h2>
+            <a href="https://fithoor.github.io/Simple_Calculator/">View Project</a>
+        </div>
+        <div class="language">
+            <img src="Projects_stuff/Community.png" alt="">
+            <h2>Huddle</h2>
+            <a href="https://fithoor.github.io/Huddle/">View Project</a>
+        </div>
+        <div class="language">
+            <img src="Projects_stuff/LoopStudio.png" alt="">
+            <h2>LoopSudio</h2>
+            <a href="https://fithoor.github.io/loops_studio/">View Project</a>
+        </div>
+        <div class="language">
+            <img src="Projects_stuff/FileStorage.png" alt="">
+            <h2>Fylo</h2>
+           <a href="https://fithoor.github.io/Fylo/">View Project</a>
+        </div>
+        <div class="language">
+            <img src="Projects_stuff/EasyBank.png" alt="">
+            <h2>easybank</h2>
+            <a href="https://fithoor.github.io/Easy-bank/">View Project</a>
+        </div>
+        <div class="language">
+            <img src="Projects_stuff/Blogger.png" alt="">
+            <h2>Blogger</h2>
+                <a href="https://fithoor.github.io/Blogr_landing_page/">View Project</a>
+        </div>
+    </div>
+</section>
+<section class="Contact" id="Recomendations">
+    <div class="form">
+        <h1>Contact Me</h1>
+        <input type="text" name="" placeholder="Name (Optional)" class="name-input">
+        <textarea name="" id="" placeholder="Message"></textarea>
+        <button class="submit" 
+        onclick="
+        submitToEmail();
+        //  submitToWhatsapp()">Send</button>
+    </div>
+</section>
+   <script src="script.js"></script>
+</body>
+</html>
